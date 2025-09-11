@@ -5,10 +5,11 @@
 1. ThreadPool class-i
 2. WinForm timer
 3. Asinxron metodlar (.BeginInvoke(), .EndInvoke()) -> kohnelib
+4. TPL - Task Parallel Library
+...
 */
 
-deleg deleg = SomeOperations;
-deleg.BeginInvoke(null, null, null);
+
 
 //ThreadPool.GetAvailableThreads(out int workerCount, out int complCount);
 
@@ -52,4 +53,3 @@ IsThreadPool:   {Thread.CurrentThread.IsThreadPoolThread}
 ");
 }
 
-delegate void deleg(object a);
