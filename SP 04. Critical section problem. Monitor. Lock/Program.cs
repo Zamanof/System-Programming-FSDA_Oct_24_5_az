@@ -203,8 +203,3 @@
 //Console.WriteLine($"Count = {Counter.even}");
 
 #endregion
-
-// Mutex
-// Mutex VS monitor/lock
-
-// Semaphore
