@@ -1,7 +1,6 @@
 ﻿// async inside
 
 using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
 
 Console.WriteLine($"Main Method start in thread: {Thread.CurrentThread.ManagedThreadId}");
 
@@ -29,6 +28,7 @@ class SomeClass
         stateMachine.builder = AsyncVoidMethodBuilder.Create();
         stateMachine.state = -1;
         stateMachine.builder.Start(ref stateMachine);
+
     }
 }
 
