@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 07. async main", "SP 07.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 07. async main not top level statement", "SP 07. async main not top level statement\SP 07. async main not top level statement.csproj", "{C6A772CE-62F2-4549-819A-0ED2D6D0116E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 08", "SP 08", "{92EE1466-59C1-4AC0-BF47-570AD6049198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP 08. async inside", "SP 08. async inside\SP 08. async inside.csproj", "{968589EE-9591-48CE-9F97-A606B5EF65C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +147,10 @@ Global
 		{C6A772CE-62F2-4549-819A-0ED2D6D0116E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A772CE-62F2-4549-819A-0ED2D6D0116E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A772CE-62F2-4549-819A-0ED2D6D0116E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968589EE-9591-48CE-9F97-A606B5EF65C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968589EE-9591-48CE-9F97-A606B5EF65C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968589EE-9591-48CE-9F97-A606B5EF65C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968589EE-9591-48CE-9F97-A606B5EF65C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,6 +176,7 @@ Global
 		{59E26200-5013-48FC-8A6B-9CC402B7EEBB} = {F33E7ED9-2722-42EA-B71C-E82BD44B83BB}
 		{FB7DCF9D-4B5A-4969-9FE8-958A18EC5990} = {F33E7ED9-2722-42EA-B71C-E82BD44B83BB}
 		{C6A772CE-62F2-4549-819A-0ED2D6D0116E} = {F33E7ED9-2722-42EA-B71C-E82BD44B83BB}
+		{968589EE-9591-48CE-9F97-A606B5EF65C0} = {92EE1466-59C1-4AC0-BF47-570AD6049198}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4265DCB-50A6-44CE-A8C2-9029902C5650}
